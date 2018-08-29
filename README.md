@@ -260,21 +260,7 @@ d_loss: [-0.4477]; g_loss: [0.42561]; real_loss: [-0.48342]; fake_loss: [-0.0357
 ---
 
 ## 引用
-DCGANs: https://arxiv.org/abs/1511.06434
-WGAN: https://arxiv.org/abs/1701.07875
-fasiai: https://github.com/fastai/fastai/blob/master/courses/dl2/wgan.ipynb
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+[DCGANs](https://arxiv.org/abs/1511.06434)
+[WGAN](https://arxiv.org/abs/1701.07875)
+[fasiai](https://github.com/fastai/fastai/blob/master/courses/dl2/wgan.ipynb)
 
