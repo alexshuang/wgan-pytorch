@@ -5,7 +5,7 @@
 本文是[解读WGAN](https://alexshuang.github.io/2018/08/24/%E8%A7%A3%E8%AF%BBWasserstein-GAN/)的实践篇，目标是用pytorch实现能生成人脸图像的WGAN。如果对WGAN、DCGANs和GANs还不熟悉的话，可以先阅读[解读WGAN](https://alexshuang.github.io/2018/08/24/%E8%A7%A3%E8%AF%BBWasserstein-GAN/)这篇理论博文，本文不再详解其原理架构，完整的源代码请查看[https://github.com/alexshuang/wgan-pytorch](https://github.com/alexshuang/wgan-pytorch)。
 
 ## Looking at the code
-[Notebook](https://github.com/alexshuang/wgan-pytorch/wgan_pytorch.ipynb) / [Paper](https://arxiv.org/abs/1701.07875)
+[Notebook](https://github.com/alexshuang/wgan-pytorch/blob/master/wgan_pytorch.ipynb) / [Paper](https://arxiv.org/abs/1701.07875)
 
 我们知道GANs可以用来做很多事情，像生成音频、文字、图像、视频等，本文目标就是用GANs来生成人脸图像，我们将会用到[CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)，一个提供名人头像的数据集。
 
